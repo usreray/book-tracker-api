@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local configuration and runtime data ###
+src/main/resources/application-local.yml
+uploads/
+*.log

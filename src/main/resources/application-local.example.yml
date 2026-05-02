@@ -1,0 +1,10 @@
+# Copy this file to application-local.yml (git-ignored) and fill in your own values.
+# Alternatively, set the DB_PASSWORD and JWT_SECRET environment variables.
+spring:
+  datasource:
+    password: your-postgres-password
+
+app:
+  jwt:
+    # Base64-encoded key of at least 256 bits, e.g. `openssl rand -base64 32`
+    secret: replace-with-a-base64-encoded-secret
