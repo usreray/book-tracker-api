@@ -64,7 +64,7 @@ openssl rand -base64 32
 
 The API starts on `http://localhost:8080`. The Swagger UI is available at `http://localhost:8080/swagger-ui.html`.
 
-When the Flutter app runs on the Android emulator it reaches this server at `http://10.0.2.2:8080`.
+When the Flutter app runs on the Android emulator it reaches this server at `http://10.0.2.2:8080`. See [Connect to the backend](https://github.com/usreray/book-tracker#connect-to-the-backend) in the app's README for pointing it at a physical device.
 
 ## API overview
 
